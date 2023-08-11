@@ -40,6 +40,7 @@ $$;
 
 
 CALL add_dealer('Macro', '123 st', '12564578');
+CALL add_dealer('Micro', '321 st', '78945612');
 
 
 CREATE OR REPLACE PROCEDURE add_salesperson_id (first_name varchar, last_name varchar, phone varchar, email varchar)
@@ -77,6 +78,7 @@ END;
 $$;
 
 CALL add_service_dept_id('852369854', 'new and used', 1);
+CALL add_service_dept_id('148526935', 'ONLY new parts', 2);
 
 SELECT *
 FROM "ServiceDept" sd 
