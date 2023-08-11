@@ -92,4 +92,5 @@ END;
 $$;
 
 CALL add_invoice('78000', 1, 1, 1, 1, 5 );
+CALL add_invoice('90000', 2, 2, 2, 1, 6);
 
